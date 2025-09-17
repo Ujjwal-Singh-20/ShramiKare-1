@@ -1,8 +1,6 @@
 #fastapi code here
-from fastapi import FastAPI, Request, Response, status
-from fastapi.responses import JSONResponse
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import requests
 
 
 app = FastAPI()
